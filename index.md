@@ -7,6 +7,7 @@
      the given repo just fine, and everything compiles without issue, but then it just says that there
      was a single test that failed. I attached what I see from the terminal and the code block where the
      error must be coming from, but I am at a loss, why does it only say one test, and why is it failing?</p>
+     
      ![Code symptom](Symptom2.png) ![Command line symptom](Symptom1.png)
      ---
   2) Something to Think About

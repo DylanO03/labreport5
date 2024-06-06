@@ -1,5 +1,6 @@
 # Debugging
-  1) #### Lab 6 Help
+---
+  1) Lab 6 Help
      I am currently having an issue with my grade.sh code in the list-examples-grader repo for lab 6.
      It seems that no matter which student submission I use, the file always fails a single test,
      even though I have way more than just 1 test. The grader can find the ListExamples.java file in
@@ -8,11 +9,11 @@
      error must be coming from, but I am at a loss, why does it only say one test, and why is it failing?
      ![Code symptom](Symptom2.png) ![Command line symptom](Symptom1.png)
      ---
-  2) #### Something to Think About
+  2) Something to Think About
      Hello, after looking over your problem, I agree that the issue is in your code in the given picture.
      I will direct you to think about where the issue could be if it's after compiling, and assuming the
      given files work as expected if they were to run. This seems to leave only one area left for an error
      such as this to occur. Perhaps you could try properly executing everything manually from the command
      line? Please follow up if you are still stuck/confused.
      ---
-  3) ####
+  3) 

@@ -16,5 +16,11 @@
      given files work as expected if they were to run. This seems to leave only one area left for an error
      such as this to occur. Perhaps you could try properly executing everything manually from the command
      line? Please follow up if you are still stuck/confused.</p>
+     
      ---
-  3) 
+  3) Fixed
+     ![Code fixed](Fixed2.png) ![Command line fixed](Fixed1.png)
+     <p style="font-size:16px;"> The issue was that instead of passing an appropriate test class to java  
+     when attempting to run the test file, they were instead passing the class with the ".java" extension,  
+     or the name of the file instead of the class. This resulted in a failure to run the right class in  
+     JUnit, which is why there was a failure of only one test.

@@ -41,8 +41,10 @@ Debugging
      
      ---
      ---
+     
 # Reflection
 ---
+
   I didn't even know what a bash file was before we covered it, and using it to run command line arguments  
   in a neat package is cool. And two things that I think are really cool, I learned today in section, where  
   we can actually debug in gui in VScode, which seems so much better than jdb, and being able to add copilot  

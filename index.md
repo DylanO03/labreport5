@@ -31,4 +31,6 @@
      which is my personal repo from week 6 lab in which we constucted a ListExamples.java grader bash file  
      I had a pretty throrough implementation of grader, and I chose to add ".java" to the end of the test  
      class in the java run line that passed to test-results.txt. Everything seen in first and third parts  
-     are all that is needed to replicate and "fix" this bug, given you use the repo I provided.</p>
+     are all that is needed to replicate and "fix" this bug, given you use the repo I provided. What seemed  
+     tricky about this bug is that it's easy to miss as it isn't blatently wrong, and the way it appears  
+     is without a true error, just misbehavior.</p>

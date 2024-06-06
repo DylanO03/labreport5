@@ -9,7 +9,7 @@ Debugging
      error must be coming from, but I am at a loss, why does it only say one test, and why is it failing?
      ![Code symptom](Symptom2.png) ![Command line symptom](Symptom1.png)
      ---
-  2) Something to Think About
+  3) Something to Think About
      <p style="font-size:16px;">Hello, after looking over your problem, I agree that the issue is in your code in the given picture.
      I will direct you to think about where the issue could be if it's after compiling, and assuming the
      given files work as expected if they were to run. This seems to leave only one area left for an error
@@ -17,7 +17,7 @@ Debugging
      line? Please follow up if you are still stuck/confused.</p>
      
      ---
-  3) Fixed
+  4) Fixed
      ![Code fixed](Fixed2.png) ![Command line fixed](Fixed1.png)
      <p style="font-size:16px;">The issue was that instead of passing an appropriate test class to java  
      when attempting to run the test file, they were instead passing the class with the ".java" extension,  
@@ -25,7 +25,7 @@ Debugging
      JUnit, which is why there was a failure of only one test.</p>
      
      ---
-  4) Setup
+  5) Setup
      <p style="font-size:16px;">The setup was from this repo: https://github.com/DylanO03/grader-review-DylanO03.git  
      which is my personal repo from week 6 lab in which we constucted a ListExamples.java grader bash file  
      I had a pretty throrough implementation of grader, and I chose to add ".java" to the end of the test  

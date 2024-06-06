@@ -20,7 +20,15 @@
      ---
   3) Fixed
      ![Code fixed](Fixed2.png) ![Command line fixed](Fixed1.png)
-     <p style="font-size:16px;"> The issue was that instead of passing an appropriate test class to java  
+     <p style="font-size:16px;">The issue was that instead of passing an appropriate test class to java  
      when attempting to run the test file, they were instead passing the class with the ".java" extension,  
      or the name of the file instead of the class. This resulted in a failure to run the right class in  
-     JUnit, which is why there was a failure of only one test.
+     JUnit, which is why there was a failure of only one test.</p>
+     
+     ---
+  4) Setup
+     <p style="font-size:16px;">The setup was from this repo: https://github.com/DylanO03/grader-review-DylanO03.git  
+     which is my personal repo from week 6 lab in which we constucted a ListExamples.java grader bash file  
+     I had a pretty throrough implementation of grader, and I chose to add ".java" to the end of the test  
+     class in the java run line that passed to test-results.txt. Everything seen in first and third parts  
+     are all that is needed to replicate and "fix" this bug, given you use the repo I provided.</p>
